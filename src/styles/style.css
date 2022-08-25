@@ -235,8 +235,12 @@
     align-items: flex-end;
 } */
 
-.flow-wrap {
+.c-flow-wrap {
   flex-flow: column wrap;
+}
+
+.r-flow-wrap {
+  flex-flow: row wrap;
 }
 
 .al-it-center {
