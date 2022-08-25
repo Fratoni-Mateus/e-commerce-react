@@ -1,0 +1,392 @@
+/*--Importando a fonte--*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap");
+/*--Importando a fonte--*/
+
+/*--Definindo as variáveis de cores--*/
+:root {
+  --dark-orange: #ff9f1c;
+  --light-orange: #ffbf69;
+  --white: #ffffff;
+  --light-grey: #ebebeb;
+  --dark-grey: #c2c2c2;
+  --black: #000000;
+  --light-cyan: #cbf3f0;
+  --dark-cyan: #2ec4b6;
+  --persian-blue: #1c39bb;
+}
+/*--Definindo as variáveis de cores--*/
+
+/*--Definindo tamanho do root--*/
+#root {
+  height: 100%;
+}
+/*--Definindo tamanho do root--*/
+
+/*----------RESET DA PAGINA----------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+/*----------RESET DA PAGINA----------*/
+
+/*--Definindo paddings--*/
+
+.pd-12 {
+  padding: 12px;
+}
+
+.pd-24 {
+  padding: 24px;
+}
+
+/*--Definindo paddings--*/
+
+/*--Definindo textos---*/
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+/*--Definindo textos---*/
+
+/*--Tamanhos de ícones--*/
+
+.icon-24 {
+  height: 24px;
+  width: 24px;
+}
+
+.icon-50 {
+  height: 35px;
+  width: 35px;
+}
+/*--Tamanhos de ícones--*/
+
+.container-header {
+  width: 100%;
+  height: 100px;
+  /*border: 1px solid black;  visualizar box*/
+  padding: 0 20px; /* desgrudar das bordas do body*/
+}
+.h-100px {
+  height: 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+/*----------IMAGENS DO HEADER----------*/
+.img-logo {
+  display: block;
+  max-width: 212px;
+  max-height: 69px;
+  width: auto;
+  height: auto;
+  /*border: 1px solid black;*/ /* visualizar box*/
+}
+
+.h-35px {
+  height: 35px;
+}
+/*----------IMAGENS DO HEADER----------*/
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.bg-dCyan {
+  background-color: var(--dark-cyan);
+}
+
+.rounded {
+  border-radius: 11px;
+}
+
+.list-none {
+  list-style: none;
+}
+.align-center {
+  align-items: center;
+  align-content: center;
+}
+.justify-center {
+  justify-content: center;
+  justify-items: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.margin-left {
+  margin-left: 16px;
+}
+
+.margin-right {
+  margin-right: 16px;
+}
+
+.search-bar {
+  width: 40vw;
+  background-image: url(../assets/Search.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 2px;
+  text-indent: 25px;
+}
+
+/*--Main--*/
+
+.gap {
+  margin: calc(125% / 100);
+}
+
+.h-26 {
+  height: 26vh;
+  min-height: 265px;
+}
+
+.w-66 {
+  width: 66vw;
+}
+
+.w-066 {
+  width: 66%;
+}
+
+.w-33 {
+  width: calc(66vw / 2);
+}
+
+.w-16 {
+  width: calc(66vw / 4);
+}
+
+.w-016 {
+  width: calc(66% / 4);
+}
+
+.bg-lCyan {
+  background-color: var(--light-cyan);
+}
+
+.first-child {
+  margin-left: 0;
+}
+
+.last-child {
+  margin-right: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.round-button {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg-lOrange {
+  background-color: var(--light-orange);
+}
+
+/* #top-carrousel{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+} */
+
+.flow-wrap {
+  flex-flow: column wrap;
+}
+
+.al-it-center {
+  align-items: center;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-a {
+  height: auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.t-al-center {
+  text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}
+
+#text-box1:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+  margin-bottom: -24px;
+}
+
+#text-box2:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+  margin-bottom: -24px;
+}
+
+.bg-dOrange {
+  background-color: var(--dark-orange);
+}
+
+.pad-4 {
+  padding: 4px;
+}
+
+.pad-16 {
+  padding: 16px;
+}
+
+.z-1 {
+  z-index: -1;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-1p {
+  z-index: 1;
+}
+
+/*--Main--*/
+
+/*LINKS E HOOVER*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* a:hover {
+    color: var(--dark-orange);
+
+} */
+
+/*--Footer--*/
+footer {
+  height: 167px;
+}
+
+.bg-lGrey {
+  background-color: var(--light-grey);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+/*TELA DE LOGIN*/
+.margin-auto {
+  margin: auto;
+  margin-bottom: 50px; /*SÓ PRA DESGRUDAR DO FOOTER*/
+  margin-top: 50px; /*SÓ PRA DESGRUDAR DO HEADER*/
+}
+
+.container-login {
+  background-color: #ebebeb;
+  width: 60vw;
+  height: 50vh;
+}
+.criar-acc {
+  width: 430px;
+  height: 300px;
+  background-color: white;
+}
+
+.login-acc {
+  width: 430px;
+  height: 300px;
+  background-color: white;
+}
+.dark-cyan {
+  color: #2ec4b6;
+}
+
+/* .icon{
+    background-image: url(../assets/Search.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+} */
