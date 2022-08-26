@@ -3,7 +3,19 @@ import SecondaryImage from "./SecondaryImage";
 import DeliveryIcon from "./DeliveryIcon";
 import SafetyIcon from "./SafetyIcon";
 import ProductColorIcon from "./ProductColorIcon";
-import AddToBasketIcon from "./AddToBasketIcon";
+import ProductAddToBasketIcon from "./ProductAddToBasketIcon";
 import ProductDescriptionInfo from "./ProductDescriptionInfo";
+import ProductDisplayImage from "./ProductDisplayImage";
+import ProductDisplayName from "./ProductDisplayName";
 
-export { PrimaryImage, SecondaryImage, DeliveryIcon, SafetyIcon, ProductColorIcon, AddToBasketIcon, ProductDescriptionInfo };
+export {
+  PrimaryImage,
+  SecondaryImage,
+  DeliveryIcon,
+  SafetyIcon,
+  ProductColorIcon,
+  ProductAddToBasketIcon,
+  ProductDescriptionInfo,
+  ProductDisplayImage,
+  ProductDisplayName,
+};

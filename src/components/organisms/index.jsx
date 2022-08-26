@@ -1,4 +1,5 @@
 import AppHeader from "./AppHeader";
 import AppFooter from "./AppFooter";
+import ProductDisplayWrapper from "./ProductDisplayWrapper";
 
-export {AppHeader, AppFooter};
+export { AppHeader, AppFooter, ProductDisplayWrapper };
