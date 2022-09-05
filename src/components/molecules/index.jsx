@@ -8,6 +8,7 @@ import AddToBasket from "./AddToBasket";
 import ProductDisplayFirstChild from "./ProductDisplayFirstChild";
 import ProductDisplayLastChild from "./ProductDisplayLastChild";
 import ProductDisplayMiddle from "./ProductDisplayMiddle";
+import ProductDisplayPriceWrapper from "./ProductDisplayPriceWrapper";
 
 export {
   ProductWrapper,
@@ -20,4 +21,5 @@ export {
   ProductDisplayFirstChild,
   ProductDisplayLastChild,
   ProductDisplayMiddle,
+  ProductDisplayPriceWrapper,
 };
