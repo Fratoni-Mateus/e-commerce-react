@@ -7,6 +7,8 @@ import ProductAddToBasketIcon from "./ProductAddToBasketIcon";
 import ProductDescriptionInfo from "./ProductDescriptionInfo";
 import ProductDisplayImage from "./ProductDisplayImage";
 import ProductDisplayName from "./ProductDisplayName";
+import TextTitle from "./TextTitle";
+import TextBody from "./TextBody";
 
 export {
   PrimaryImage,
@@ -18,4 +20,6 @@ export {
   ProductDescriptionInfo,
   ProductDisplayImage,
   ProductDisplayName,
+  TextTitle,
+  TextBody,
 };
