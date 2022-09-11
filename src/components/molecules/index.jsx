@@ -12,6 +12,8 @@ import ProductDisplayPriceWrapper from "./ProductDisplayPriceWrapper";
 import TextWrapper from "./TextWrapper";
 import TextCardFirstChild from "./TextCardFirstChild";
 import TextCardLastChild from "./TextCardLastChild";
+import SocialNetworks from "./SocialNetworks";
+import LegalWords from "./LegalWords";
 
 export {
   ProductWrapper,
@@ -28,4 +30,6 @@ export {
   TextWrapper,
   TextCardFirstChild,
   TextCardLastChild,
+  SocialNetworks,
+  LegalWords,
 };
