@@ -7,14 +7,14 @@ import {
   ContactLink,
   TermsAndConditionsLink,
 } from "../atoms";
-import { SocialNetworks, LegalWords } from "../molecules";
+import { SocialNetworksWrapper, LegalWords } from "../molecules";
 
 export default function AppFooter() {
   return (
     <footer className="bg-lGrey flex-column pd-24 font-14 font-light">
       <div className="flex space-evenly">
         <Logo />
-        <SocialNetworks />
+        <SocialNetworksWrapper />
         <AboutUsLink />
         <PrivacyPolicyLink />
         <ContactLink />

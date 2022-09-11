@@ -2,7 +2,7 @@ import React from "react";
 
 import { Instagram, Facebook, Twitter } from "../atoms";
 
-export default function SocialNetworks() {
+export default function SocialNetworksWrapper() {
   return (
     <div className="social-media-wrapper flex-column">
       <p>Redes sociais</p>
