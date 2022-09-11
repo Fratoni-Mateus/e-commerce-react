@@ -9,6 +9,7 @@ import ProductDisplayImage from "./ProductDisplayImage";
 import ProductDisplayName from "./ProductDisplayName";
 import TextTitle from "./TextTitle";
 import TextBody from "./TextBody";
+import ReadMore from "./ReadMore";
 
 export {
   PrimaryImage,
@@ -22,4 +23,5 @@ export {
   ProductDisplayName,
   TextTitle,
   TextBody,
+  ReadMore,
 };

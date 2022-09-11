@@ -10,6 +10,8 @@ import ProductDisplayLastChild from "./ProductDisplayLastChild";
 import ProductDisplayMiddle from "./ProductDisplayMiddle";
 import ProductDisplayPriceWrapper from "./ProductDisplayPriceWrapper";
 import TextWrapper from "./TextWrapper";
+import TextCardFirstChild from "./TextCardFirstChild";
+import TextCardLastChild from "./TextCardLastChild";
 
 export {
   ProductWrapper,
@@ -24,4 +26,6 @@ export {
   ProductDisplayMiddle,
   ProductDisplayPriceWrapper,
   TextWrapper,
+  TextCardFirstChild,
+  TextCardLastChild,
 };
